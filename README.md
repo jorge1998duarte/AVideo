@@ -161,7 +161,7 @@ We've created a docker compose environment for easy development and production.
 Either just build the current branch by cloning the repository and run
 
 ```bash
-doker build -t avideo .
+docker build -t avideo .
 ```
 
 And run the image. It contains an Apache2 webserver exposing ports 80 and 443. 
